@@ -17,9 +17,9 @@ fi
 
 #else if
 
-if ["$text"=="start" ];then
+if ["$text" -eq "start" ];then
     echo "chose start"
-elif ["$text"=="stop" ];then
+elif ["$text" -eq "stop" ];then
     echo "chose stop"
 else
     echo "Chosen option not available"
