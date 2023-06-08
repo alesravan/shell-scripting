@@ -10,6 +10,7 @@ case ($input) in
         echo "you chose pause"
         ;;
     *)
+        echo "your choise is not defined"
 esac
 
 
