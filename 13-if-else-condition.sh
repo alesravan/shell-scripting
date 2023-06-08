@@ -1,6 +1,6 @@
 #!bin/bash
-input =$1
-text =$2
+input=$1
+text=$2
 
 # Simple If
 if [$((input))/2=0];then
