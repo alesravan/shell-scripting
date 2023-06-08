@@ -2,7 +2,7 @@
 
 input=$1
 
-case (input) in
+case ($input) in
     start)
         echo "You chose start"
         ;;
