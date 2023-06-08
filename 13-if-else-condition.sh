@@ -3,13 +3,13 @@ input=$1
 text=$2
 
 # Simple If
-if [$((input))/2=0];then
+if [$((input))/2==0];then
     echo "Even number"
 fi
 
 # if else
 
-if [$((input))/2=0];then
+if [$((input))/2==0];then
     echo "Even number"
 else
     echo "Odd Number"
